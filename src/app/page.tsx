@@ -257,7 +257,7 @@ export default function Home() {
         </div>
         <div className="pt-8">
           <p className="p-2 my-6 text-sm border rounded-lg">
-            Note: This is forked from "tech from palestine" to improve ui/ux.
+            Note: This is forked from &quot;tech from palestine&quot; to improve ui/ux.
           </p>
           <p className="text-gray-600">
             :) smile{' '}
@@ -276,7 +276,6 @@ export default function Home() {
               target="_blank"
               className="underline cursor-pointer"
             >
-              {' '}
               made by arize
             </a>
           </p>
