@@ -257,13 +257,12 @@ export default function Home() {
         </div>
         <div className="pt-8">
           <p className="p-2 my-6 text-sm border rounded-lg">
-            Note: This app runs purely on your browser end. No images nor data
-            will be saved by the app.
+            Note: This is forked from "tech from palestine" to improve ui/ux.
           </p>
           <p className="text-gray-600">
-            Have any feedback?{' '}
+            :) smile{' '}
             <a
-              href="https://www.x.com/sohafidz"
+              href="https://chatgpt.com"
               target="_blank"
               className="underline cursor-pointer"
             >
@@ -271,14 +270,14 @@ export default function Home() {
             </a>
           </p>
           <p className="text-gray-600">
-            For any bugs, please report them to our{' '}
+            :){' '}
             <a
-              href="https://github.com/TechForPalestine/palestine-pfp-maker/issues"
+              href=""
               target="_blank"
               className="underline cursor-pointer"
             >
               {' '}
-              GitHub repository.
+              made by arize
             </a>
           </p>
         </div>
