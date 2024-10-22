@@ -49,7 +49,6 @@ export default function Home() {
 
       reader.readAsDataURL(file);
     } else {
-      // Handle the case when no file is selected (optional)
       console.error('No file selected.');
     }
   };
@@ -91,7 +90,6 @@ export default function Home() {
   };
 
   const handleDownload = async () => {
-    // TODO: Fix if possible. This is a hack to ensure that image generated is as expected. Without repeating generateImage(), at times, the image wont be generated correctly.
     await generateImage();
     await generateImage();
     await generateImage();
@@ -145,7 +143,6 @@ export default function Home() {
               className="relative"
               ref={ref}
             >
-              {/* eslint-disable-next-line */}
               <Image
                 width={100}
                 height={100}
@@ -257,27 +254,27 @@ export default function Home() {
         </div>
         <div className="pt-8">
           <p className="p-2 my-6 text-sm border rounded-lg">
-            Note: This is forked from "tech from palestine" to improve ui/ux.
+            Note: This app is a forked project by Arize. It runs purely on your
+            browser end. No images nor data will be saved by the app.
           </p>
           <p className="text-gray-600">
-            :) smile{' '}
+            Have any feedback?{' '}
             <a
-              href="https://chatgpt.com"
+              href="https://google.com"
               target="_blank"
-              className="underline cursor-pointer"
+              className="underline cursor-pointer hover:text-gray-900"
             >
-              Let me know!
+              Reach out.
             </a>
           </p>
           <p className="text-gray-600">
-            :){' '}
+            Feel like donating?{' '}
             <a
-              href=""
+              href="https://www.donate-palestine-charity-link.com/"
               target="_blank"
-              className="underline cursor-pointer"
+              className="underline cursor-pointer hover:text-gray-900"
             >
-              {' '}
-              made by arize
+              Support a Palestine Charity.
             </a>
           </p>
         </div>
